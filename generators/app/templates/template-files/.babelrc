@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["env", {
+      "browsers": ["last 2 versions", "> 3%"],
+      "modules": false,
+      "useBuildIns": true
+    }]
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-decorators-legacy"
+  ],
+  "env": {
+    "gulp": {
+      "presets": ["es2015"]
+    }
+  },
+}
